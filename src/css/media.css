@@ -1,0 +1,36 @@
+@media screen and (max-width: 760px) {
+  .day-container, .dayOfWeek-container {
+    border: 1px solid white;
+    height: 60px;
+    width: 13.8%;
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .dayOfWeek-container {
+    height: 50px;
+    padding: 5px 0;
+    margin-bottom: 5px;
+  }
+  .event__title {
+    visibility: hidden;
+  }
+  .event-container {
+    position: relative;
+    top: -10%;
+    left: -15%;
+  }
+  .week-container .day-container {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .event__title {
+    visibility: visible;
+  }
+  .event-container {
+    background-color: #f2f2f2;
+  }
+}
